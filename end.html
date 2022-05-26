@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>quizIT</title>
+</head>
+<body>
+	<!--THIS IS THE DIV THAT HOLDS OUR END PAGE-->
+	<div class="container">
+		<!-- END SECTION STARTS -->
+		<div id="end" class="flex-center flex-column">
+			<h1 id="finalScore">0</h1>
+				<!--THIS IS A FORM THAT COLLECT SAVE SCORES-->
+				<form class="end-form-container">
+					<h2 id="end-text"> Enter your name to save the score!</h2>
+					<input type="text" name="name" id="username" placeholder="Enter your name">
+					<button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button><!-- THIS IS A BUTTON THAT HAS A JAVASCRIPT FUNCTION TO SAVE SCORES OF THE RESPONDENT -->
+				</form>
+				<!-- FORM ENDS -->
+				<a href="game.html" class="btn">Play Again</a>	<!-- THIS BUTTON WILL JUMPS YOU BACK TO OUR GAME SECTION -->
+				<a href="index.html" class="btn">Home</a>	<!-- THIS BUTTON WILL JUMPS YOU BACK TO OUR HOMEPAGE--> 
+		</div>
+			<!-- END SECTION ENDS -->
+	</div>
+		<!--DIV THAT HOLDS OUR END PAGE ENDS HERE-->
+<script src="end.js"></script> 	<!--THIS SCRIPT WILL LINK THIS PAGE TO OUR JAVASCRIPT FUNCTION-->
+</body>
+</html>
