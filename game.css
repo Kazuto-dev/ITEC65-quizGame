@@ -15,8 +15,8 @@ body{
 	cursor: pointer;
 	box-shadow:0 0.4rem 1.4rem 0 rgba(254, 152, 141, 0.9);
 	transform: scale(1.07);
-	transform: transform 150ms;
-}
+	transform: transform 150ms; 
+}S
 
 .choice-prefix{
 	padding: 2rem 2.5rem;
@@ -72,7 +72,6 @@ body{
 }
 
 #question{
-	position: fixed;
 	font-size: 2rem;
 }
 

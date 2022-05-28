@@ -22,7 +22,7 @@ let questions = [
 		   answer: 2,
 	},
 
-	{
+	{ 
 		question: "How many types of CSS are there?",
 			choice1: '1',
 			choice2: '2',

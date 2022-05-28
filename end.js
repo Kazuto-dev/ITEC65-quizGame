@@ -31,4 +31,4 @@ saveHighScore = e => {
 
 	localStorage.setItem('highScore', JSON.stringify(highScores))
 	window.location.assign('')
-}	//this fuction executes the adding and sorting of total score with entered name.
+}	//this fuction executes the adding and sorting of total score with entered name. 
