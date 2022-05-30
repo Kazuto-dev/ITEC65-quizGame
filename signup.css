@@ -164,3 +164,10 @@ form h2 {
    transition: transform 200ms;
    transform: scale(1.1);
 }
+
+@media screen and (max-width: 480px){
+
+.box, .btn, .btn:hover, .button, .button:hover, .container, .form, .left, .left:hover, .right, .right:hover{
+   width: 90%;
+}
+}
