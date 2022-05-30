@@ -51,7 +51,7 @@ body {
    align-items: center;
    padding-top: 150px;
    font-weight: 1000;
-   font-size: 50pt;
+   font-size: 40pt;
    color: #E8B8AD;
    position: absolute;
 }
@@ -91,7 +91,6 @@ form h2{
     outline:none;
     text-align: center;
     border-radius:20px;
-    padding-top: 50px;
     font-size: 25px;
 }
 
@@ -137,21 +136,21 @@ form h2{
    font-weight: 1000;
 }
 
-.form a{
+.form button{
    padding-top: 20px;
    text-decoration: none;
    color: #fff;
 }
 
 
-.form a:hover{
+.form button:hover{
    color:#121212;
    transition: transform 200ms;
    transform: scale(1.1);
 }
 
-@media screen and (max-width: 480px){
 
+@media screen and (max-width: 480px){
    .box, .btn, .btn:hover, .button, .button:hover, .container, .form, .left, .left:hover, .right, .right:hover{
        width: 90%;
    }

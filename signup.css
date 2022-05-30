@@ -1,4 +1,4 @@
-*{
+   *{
    margin:0;
    padding:0;
    box-sizing:border-box;
@@ -152,14 +152,14 @@ form h2 {
    font-weight: 1000;
 }
 
-.form a{
+.form button{
    padding-top: 20px;
    text-decoration: none;
    color: #fff;
 }
 
 
-.form a:hover{
+.form button:hover{
    color:#121212;
    transition: transform 200ms;
    transform: scale(1.1);
