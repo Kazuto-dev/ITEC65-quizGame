@@ -28,6 +28,10 @@ body {
    box-shadow: -20px 0rem 20rem 20px rgb(7 7 7 / 90%);
 }
 
+.left:hover{
+   transition: transform 700ms;
+   transform: scale(1.1);
+}
 
 .right{
    position: sticky;
@@ -38,25 +42,31 @@ body {
    box-shadow: 20px 0rem 20rem 0px rgb(216 102 103 / 90%);
 }
 
+.right:hover{
+   transition: transform 700ms;
+   transform: scale(1.1);
+}
+
 .right h1{
    align-items: center;
-   padding-top: 200px;
+   padding-top: 150px;
    font-weight: 1000;
    font-size: 40pt;
-   color: #fff;
+   color: #E8B8AD;
+   position: absolute;
 }
 
 .form{
-   display:flex;
+   display: flex;
    flex-direction:column;
-   width:100%;
+   width: 100%;
    align-items:center;
    background-color:#E8B8AD;
 }
 
 form h2{
   font-size:3rem;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: poppins;
   margin:50px;
 
 }
@@ -71,8 +81,8 @@ form h2{
 
 .button{
     padding:12px 30px;
-    width:40%;
-    margin-top:40px;
+    width:60%;
+    margin-top: 25px;
     background-color: black;
     color: whitesmoke;
     text-decoration:none;
@@ -81,18 +91,61 @@ form h2{
     outline:none;
     text-align: center;
     border-radius:20px;
+    padding-top: 50px;
+    font-size: 25px;
 }
-
 
 .button:hover{
     cursor:pointer;
-    background-color:#E8B8AD;
+    background-color:#d3d2d2;
     box-shadow:0 0.4rem 1.4rem 0 rgba(216, 102, 103, 0.9);
-} 
+}
+
+.btn{
+    top: 50%;
+    position: absolute;
+    padding: 16px 30px;
+    /* text-decoration: none; */
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    outline: none;
+    background: #E8B8AD;
+    cursor: pointer;
+    width: 60%;
+    text-align: center;
+    /* padding-top: 20px; */
+    /* margin: auto; */
+    margin-top: 100px;
+}
+
+.btn:hover{
+    cursor:pointer;
+    background-color:#d3d2d2;
+    box-shadow:0 0.4rem 1.4rem 0 rgba(216, 102, 103, 0.9);
+    transition: transform 200ms;
+    transform: scale(1.1);
+}
+
+.right .btn a:hover{
+   color: #fff;
+}
+
+.btn a{
+   text-decoration: none;
+   color: #121212;
+   font-weight: 1000;
+}
 
 .form a{
    padding-top: 20px;
+   text-decoration: none;
+   color: #fff;
 }
+
+
 .form a:hover{
-   color:#fd4e4e;
+   color:#121212;
+   transition: transform 200ms;
+   transform: scale(1.1);
 }

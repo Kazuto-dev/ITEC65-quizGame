@@ -15,8 +15,8 @@ body{
 	cursor: pointer;
 	box-shadow:0 0.4rem 1.4rem 0 rgba(254, 152, 141, 0.9);
 	transform: scale(1.07);
-	transform: transform 150ms; 
-}S
+	transform: transform 150ms;
+}
 
 .choice-prefix{
 	padding: 2rem 2.5rem;
@@ -72,6 +72,20 @@ body{
 }
 
 #question{
+	position: fixed;
 	font-size: 2rem;
 }
 
+@media screen and (max-width: 480px){
+
+.choice-container, .choice-container:hover, .choice-prefix, .choice-text, .correct, .flex-column, .hud-main-text, .hud-prefix, .incorrect, {
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 480px){
+
+#hud, #progressBar, #progressBarFull, #question{
+	width: 100%;
+}
+}

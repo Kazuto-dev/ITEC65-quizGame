@@ -1,18 +1,16 @@
-:root {
+ :root {
     background-color: #121212;
 }
 
-
+body{
+    font-family: Poppins;
+}
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-}
-
-body{
-    font-family: Poppins;
 }
 
 h1 {
@@ -131,4 +129,11 @@ input::placeholder{
 
 #saveScoreBtn{
     border: none;
+}
+
+@media screen and (max-width: 480px){
+
+.bth[disabled]:hover, .btn, .btn:hover, .container, .end-form-container, .flex-center, .flex-column, .hidden, .justify-center, .text-center, #ranks-btn, #ranks-btn:hover{
+    width: 100%;
+}
 }
