@@ -8,7 +8,7 @@ mysqli_select_db($con, 'quizit'); //Selecting database
 $email = $_POST['email']; //POST email
 $pass = $_POST['password']; //POST pass
 
-$s = "SELECT * FROM user WHERE email = '$email' && password = '$pass'";
+$s = "SELECT * FROM users WHERE email = '$email' && password = '$pass'";
 
 $result = mysqli_query($con, $s); 
 $num = mysqli_num_rows ($result); 
