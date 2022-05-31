@@ -14,10 +14,10 @@
           <div class="left">
           <form action="login.php" method="post" class="form">
                <h2>Sign In</h2>
-                <input type="email"name="email" class="box" placeholder="Email" required="">
+                <input type="email" name="email" class="box" placeholder="username" required="">
                 <input type="password"name="password"class="box"
                 placeholder="Password" required="">
-               <button type="submit" class="button" >Play</a>
+                <button class="button" type="submit">Play</button>
           </form>
      </div>
 
@@ -27,7 +27,7 @@
           <h1>quizIT</h1>
 
           <div class="btn">
-               <a href="signup.html" class="color">Sign Up</a>
+               <a href="signup.php" class="color">Sign Up</a>
           </div>
 
      </div>
