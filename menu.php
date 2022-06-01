@@ -35,6 +35,8 @@ if(!isset($_SESSION['email']))
 			<a class="btn" id="ranks-btn" href="highscores.html">Rankings</a>  <!-- THIS IS A BUTTON THAT WILL SHOWS SCORES IN HIGHEST TO LOWEST VALUE -->
 			<!--BUTTON SECTION ENDS-->
 
+			<a class="btn" id="ranks-btn" href="logout.php">LOGOUT</a>
+
 		</div>
 		<!--HOMEPAGE SECTION ENDS-->
 
